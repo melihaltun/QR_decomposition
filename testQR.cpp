@@ -26,7 +26,7 @@ int main() {
 
     multiply_matrices(BB, QQ, RR, 4, 4, 3);  // BB should be identical to AA
 
-	return 0;
+    return 0;
 }
 
 /*
