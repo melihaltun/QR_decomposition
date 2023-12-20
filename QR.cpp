@@ -10,7 +10,9 @@ void givensRotation(float *c, float *s, float a, float b)
 {
 	float r;
 	if (b == 0) {
-		*c = 1 * sgn(b);
+		*c = (float)(1 * sgn(a));
+		if (*c == 0)
+			*c = 1.0f;
 		*s = 0;
 	}
 	else if (a == 0) {
